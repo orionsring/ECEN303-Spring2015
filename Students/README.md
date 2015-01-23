@@ -4,7 +4,7 @@ Enrolled Students and Faculty Members
 
 Undergraduate Students
 ----------------------
-
+Keaton Brown
 
 Graduate Students
 -----------------
