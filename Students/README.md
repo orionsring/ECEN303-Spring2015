@@ -6,6 +6,7 @@ Undergraduate Students
 ----------------------
 Keaton Brown
 * Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn) 
+* Thomas Branyon, [tbranyon](https://github.com/tbranyon)
 
 Graduate Students
 -----------------
