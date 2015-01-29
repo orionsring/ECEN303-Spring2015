@@ -1,0 +1,11 @@
+Dear Students,
+
+You will find attached to this email Assignment 1, which should be rather straightforward. As part of this exercise, you are asked to read the first two chapters in the notes. This may be required to complete some of the problems. This assignment is due on:
+	Wednesday, Jan 28, at 12:40pm before lecture begins.
+In attempting the problems, keep in mind that most of the learning is in the trying, and a large part of assignment grading is based on participation.
+
+Now, for the overachievers, the relentless learners, and the forward thinking students, read the optional tasks below. As I mentioned in class, I make a (perhaps futile) attempt at the beginning of every semester to provide an alternate learning path for probability through computer exercises. This time, we will try to do that using Python and GitHub, as explained in Tasks 1 and 2. These activities remain, for now, strictly optional.
+
+Cheers,
+Jean-Francois Chamberland
+

@@ -1,0 +1,18 @@
+Dear Students,
+
+I hope you had a nice winter break and I would like to welcome you back to campus. You are receiving this message because you are currently registered for ECEN 303-502, Random Signals and Systems.
+
+There is no required book for this course. Instead, I use a concise set of notes to teach the class. These notes are attached below. You will be expected to carefully read and understand approximately four/six pages of material per lecture. To get the most out of the course, you should complete the reading assignments before the corresponding lecture. Also, to help you with the discipline that this requires, you will be quizzed on the material from time to time. One effective way to attend lecture is to come with printed/electronic notes and to supplement these notes with the material presented in class.
+
+Purchasing a textbook for the class is optional. The notes are somewhat complete, and they contain most of the material you will be responsible for throughout the semester. Still, having access to good resources is an invaluable asset. Conveniently, there are many excellent textbooks on the subject. Some of these textbooks are listed on the website and in your syllabus. If you are inclined to not purchase a book, you should try to convince your friends to do so. This way, you can gain access to their copies. Alternatively, I have requested that several books be put on reserve at the library under ECEN 303 - Random Signals and Systems.
+
+Lectures are scheduled to take place on Monday, Wednesday, Friday from 12:40 to 1:30 pm in BLOC 113, while recitation sessions are on Wednesday from 8:00 to 9:00 am in ETB 1037. Attendance to both lectures and recitations is mandatory. However, there will NOT be recitation tomorrow (Jan 20). You will find below a copy of the syllabus for the class; it is also available through the Howdy portal.
+
+I look forward to seeing in class on Wednesday, Jan 21, at 12:40 pm.
+
+Best regards,
+Jean-Francois Chamberland
+
+PS: If you are a programming virtuoso or a technical writer, you can find the LaTeX source for the notes on GitHub.
+https://github.com/EduDocs/Notes
+
