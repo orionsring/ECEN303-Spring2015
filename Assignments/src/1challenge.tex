@@ -12,29 +12,32 @@
 \begin{document}
 
 \begin{center}
-{\bfseries \LARGE Challenge 1}
+{\bfseries \LARGE Programming Challenge 1}
 \end{center}
 
-\section*{Programming Challenges}
-
-In python, the \texttt{random} module generates pseudo random numbers.
-For instance, \texttt{random.randrange(2)} produces (pseudo) random bits.
-To use this module, it is necessary to \texttt{import random}.
-
-Using a loop, store $n$ random bits in a \texttt{list} object.
+In python, the \texttt{random} module can generate pseudo random numbers.
+For the purpose of this course, such numbers can be considered random.
+In particular, \texttt{random.randrange(2)} produces random bits.
+To use the \texttt{random} module, it is necessary to \texttt{import random}.
+Using a loop, store \texttt{N} random bits in a \texttt{list} object.
 \begin{verbatim}
-N = 100.0
-sequence = []
-for i in range(0, N):
-    sequence.append(random.randrange(2))
+import random
+
+SampleSpaceSize = 10
+NumberTrials = 10
+
+TrialSequence = []
+for TrialIndex in range(0, NumberTrials):
+    TrialSequence.append(random.randrange(SampleSpaceSize))
 \end{verbatim}
 Then, look at the empirical distribution of the ratios of zeros and ones.
 \begin{verbatim}
 percent = []
-percent.append(sequence.count(0) / N)
-percent.append(sequence.count(1) / N)
+for OutcomeIndex in range(0, SampleSpaceSize):
+    percent.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 print percent
 \end{verbatim}
 Explore how the empirical distribution changes as \texttt{N} increases 10.0, 100.0, 1000.0, 10000.0.
 
 \end{document}
+
