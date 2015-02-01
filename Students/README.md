@@ -4,7 +4,7 @@ Enrolled Students and Faculty Members
 
 Undergraduate Students
 ----------------------
-Keaton Brown
+* Keaton Brown, [keabro](https://github.com/keabro)
 * Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn) 
 * Thomas Branyon, [tbranyon](https://github.com/tbranyon)
 
