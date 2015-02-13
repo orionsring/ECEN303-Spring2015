@@ -2,7 +2,7 @@
 RANDOM SIGNALS AND SYSTEMS
 ==========================
 
-The teaching assistants for the course are Shuilian Xie (kanzuobian) and Xu Wang (xu.wang).
+The teaching assistants for the course are Shuilian Shirley Xie (kanzuobian) and Xu Wang (xu.wang).
 
 
 ## ECEN303-Spring2015
