@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+
+%%  Dimensions and URL
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+%%  Definitions
+\renewcommand{\baselinestretch}{1.1}
+\pagestyle{plain}
+
+
+\begin{document}
+
+\begin{center}
+{\bfseries \LARGE Programming Challenge 2}
+\end{center}
+
+This challenge, like many other challenges, will use the \texttt{random} module in python to generate pseudo random numbers.
+Remember to import the module, if needed.
+\begin{verbatim}
+import random
+\end{verbatim}
+
+Write a method to generate a Bernoulli random variable with parameter $p = 0.75$.
+Then, create a sequence of random variables.
+Each random variable in the sequence should be the sum of 10 independent Bernoulli random variable.
+Note that the range $X(\Omega)$ for each random variable should be $\{ 0, 1, \ldots, 10 \}$.
+Using a \texttt{for} loop, look at the empirical distribution of the proportion of zeros, ones, \ldots, tens.
+\begin{verbatim}
+percent = []
+for OutcomeIndex in range(0, SampleSpaceSize):
+    percent.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
+print percent
+\end{verbatim}
+Explore how the empirical distribution changes as \texttt{N} grows: 100.0, 1000.0, 10000.0, etc.
+Can you recognize the distribution that you are getting?
+
+Use \texttt{matplotlib}, or another python 2D plotting library to display empirical distributions.
+
+\end{document}
+
