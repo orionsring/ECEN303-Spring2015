@@ -2,6 +2,9 @@
 RANDOM SIGNALS AND SYSTEMS
 ==========================
 
+The teaching assistants for the course are Shuilian Shirley Xie (kanzuobian) and Xu Wang (xu.wang).
+
+
 ## ECEN303-Spring2015
 
 Students enrolled in ECEN 303-502 can use this GitHub repository as the primary remote repository for source code management (SCM).
