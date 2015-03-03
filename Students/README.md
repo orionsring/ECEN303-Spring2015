@@ -4,12 +4,10 @@ Enrolled Students and Faculty Members
 
 Undergraduate Students
 ----------------------
-* Keaton Brown, [keabro](https://github.com/keabro)
-* Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn) 
+* Donald Adams, [orionsring](https://github.com/orionsring)
 * Thomas Branyon, [tbranyon](https://github.com/tbranyon)
-
-Graduate Students
------------------
+* Keaton Brown, [keabro](https://github.com/keabro)
+* Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn)
 
 
 Faculty Members
