@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+
+%%  Dimensions and URL
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+%%  Definitions
+\renewcommand{\baselinestretch}{1.1}
+\pagestyle{plain}
+
+
+\begin{document}
+
+\begin{center}
+{\bfseries \LARGE Challenge 3}
+\end{center}
+
+\section*{Programming Challenges}
+
+Use the \texttt{random} module to generate pseudo random numbers.
+For instance, \texttt{random.randrange(2)} produces (pseudo) random bits.
+To use this module, it is necessary to \texttt{import random}.
+It may also be helpful to \texttt{import numpy as np}.
+
+In this numerical procedure, you will create multiple sequences of random variables.
+Let \texttt{X} and \texttt{Y} correspond to the roll of independent, fair dice.
+Let sum \texttt{S = X + Y} and max \texttt{M = max(X,Y)}.
+Compute the joint PMF of \texttt{S} and \texttt{M}.
+\begin{verbatim}
+NumberTrials = 100000
+sequenceX = []
+sequenceY = []
+sequenceS = []
+sequenceM = []
+
+for TrialIndex in range(0, NumberTrials):
+    sequenceX.append(random.randint(1, 6))
+    sequenceY.append(random.randint(1, 6))
+    sequenceS.append(sequenceX[TrialIndex] + sequenceY[TrialIndex])
+    sequenceM.append(max(sequenceX[TrialIndex], sequenceY[TrialIndex]))
+\end{verbatim}
+Then, look at the empirical distribution of the ratios of zeros and ones.
+\begin{verbatim}
+PMFofSM = np.zeros((13, 7))
+
+for TrialIndex in range(0, NumberTrials):
+    PMFofSM[sequenceS[TrialIndex], sequenceM[TrialIndex]] += 1
+
+PMFofSM /= float(NumberTrials)
+\end{verbatim}
+Write code to isolate the (empirical) conditional PMF of \texttt{S} given \texttt{M}.
+Explore how this empirical distribution changes as \texttt{N} increases: 10, 100, 1000, 10000.
+Can you guess the correct structure for the conditional PMF of \texttt{S} given \texttt{M}?
+\end{document}
+
