@@ -9,6 +9,7 @@ Undergraduate Students
 * Keaton Brown, [keabro](https://github.com/keabro)
 * Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn)
 * Kyle Sparrow, [CaptJack] (https://github.com/CaptJack)
+* Cooper Rehn, [Cooper95] (https://github.com/Cooper95)
 
 
 Faculty Members
