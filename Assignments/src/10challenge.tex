@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+
+\newif\ifsoln
+\solnfalse
+
+
+%%  Dimensions and URL
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+%%  Definitions
+\renewcommand{\baselinestretch}{1.1}
+\pagestyle{plain}
+
+
+\begin{document}
+
+\begin{center}
+{\bfseries \LARGE Programming Challenge 10}
+\end{center}
+
+\begin{enumerate}
+\item Let $X$ be a standard Gaussian random variable,
+\begin{equation*}
+f_X (x) = \frac{1}{\sqrt{2 \pi}} e^{-x^2/2} .
+\end{equation*}
+We wish to estimate $\Pr (X \geq 2)$.
+\begin{enumerate}
+\item For this value of $s$, generate a sequence of independent random variables $X_1, X_2, \ldots$, each according to the standard Gaussian distribution.
+Plot
+\begin{equation*}
+A_n = \frac{1}{n} \sum_{i=1}^n \mathbf{1}_{ \{ X_i \geq 2 \}}
+\end{equation*}
+as a function of $n$.
+\item Consider the distribution $f_Y(x) = e^{sx} f_X(x) / M_X (s)$, where $M_X (\cdot)$ is the moment generating function of $X$.
+Show that $f_Y(\cdot)$ is a distribution.
+\item How would you choose $s$ to make $\mathrm{E}[Y] = 2$?
+
+\ifsoln
+First we note that
+\begin{equation*}
+\mathrm{E} [Y] = \mathrm{E}_X \left[ \frac{ x e^{sx} }{ M_X (s) } \right]
+= \frac{1}{ M_X (s) } \mathrm{E}_X \left[ x e^{sx} \right]
+= \frac{1}{ M_X (s) } \frac{d}{ds} M_X (s) .
+\end{equation*}
+For the standard Gaussian random variable, we have $M_X (s) = e^{-s^2/2}$ and $M_X' (s) = - s e^{-s^2/2}$.
+Thus, we obtain $s = -2$.
+\fi
+
+\item Generate a sequence of independent random variables $Y_1, Y_2, \ldots$, each with distribution $f_Y (\cdot)$.
+Plot
+\begin{equation*}
+B_n = \frac{1}{n} \sum_{i=1}^n \mathbf{1}_{ \{ Y_i \geq 2 \}} M_X (s) e^{-sY_i}
+\end{equation*}
+as a function of $n$.
+\item Comment on this technique.
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
+
