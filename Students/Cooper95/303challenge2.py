@@ -1,5 +1,6 @@
 import random
 import matplotlib
+import matplotlib.pyplot as plt
 
 SampleSpaceSize = 11
 NumberBernoullis = 10
@@ -20,4 +21,5 @@ for OutcomeIndex in range(0, SampleSpaceSize):
 	percent.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 print(percent)
 
-plot(percent)
+plt.plot(percent)
+plt.show()
