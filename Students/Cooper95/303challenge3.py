@@ -1,4 +1,6 @@
 import random
+import matplotlib
+import matplotlib.pyplot as plt
 import numpy as np
 
 NumberTrials = 100000
@@ -39,4 +41,17 @@ for s in range(0,13):
 			PMFofSgM[s,m] = PMFofSM[s,m] / PMFofM[m]
 print("PMF of S given M:")
 print(PMFofSgM)
+
+#plots of PMF of S given M
+for m in range(0,7):
+	PMFofS = []
+	for s in range(0,13):
+		PMFofS.append(PMFofSgM[s,m])
+	plt.figure()
+	plt.title("PMF of S given M = " + str(m))
+	plt.xlabel('S')
+	plt.ylabel('PMF of S')
+	plt.stem(PMFofS)
+	plt.axis([0,13,0,1])
+plt.show()
 #The PMF of S given M is zero when S <= M and S > 2M, Pr(S=2M|M) = 1/(1+2(M-1)) and Pr(M<S<2M|M) = 2/(1+2(M-1))
