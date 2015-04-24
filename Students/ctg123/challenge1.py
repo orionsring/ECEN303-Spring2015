@@ -14,4 +14,4 @@ for TrialIndex in range(0, NumberTrials):
         percent.append(TrialSequence.count(OutcomeIndex)/ float(NumberTrials))
     print(percent)
 
-    # Explore how the empirical distribution changes as N increases 10.0, 100.0, 1000.0, 10000.0.
+    # Explore how the empirical distribution changes as N increases 10.0, 100.0, 1000.0, 10000.0
