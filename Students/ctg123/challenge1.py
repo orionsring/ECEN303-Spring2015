@@ -1,7 +1,7 @@
 import random
 
 SampleSpaceSize = 2 # bits can only take 2 values: 0 or 1.
-NumberTrials = 10000
+NumberTrials = 10000 # change to 10,100,1000,10000,etc...
 
 TrialSequence = [] # first column
 for TrialIndex in range(0, NumberTrials):
