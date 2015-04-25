@@ -11,6 +11,7 @@ Undergraduate Students
 * Kyle Sparrow, [CaptJack] (https://github.com/CaptJack)
 * Cooper Rehn, [Cooper95] (https://github.com/Cooper95)
 * Minda Wei, [minda-wei](https://github.com/minda-wei)
+* Chaance Graves, [ctg123](https://github.com/ctg123)
 
 
 Faculty Members
