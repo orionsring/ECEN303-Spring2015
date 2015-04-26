@@ -8,6 +8,7 @@ Undergraduate Students
 * Thomas Branyon, [tbranyon](https://github.com/tbranyon)
 * Keaton Brown, [keabro](https://github.com/keabro)
 * Evelyn Cifuentes, [cifuentesevelyn](https://github.com/cifuentesevelyn)
+* Jordan Kilburn, [jordankilburn](https://github.com/jordankilburn)
 * Kyle Sparrow, [CaptJack] (https://github.com/CaptJack)
 * Cooper Rehn, [Cooper95] (https://github.com/Cooper95)
 * Minda Wei, [minda-wei](https://github.com/minda-wei)
