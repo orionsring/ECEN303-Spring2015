@@ -1,8 +1,5 @@
 import random
 import numpy as np
-import matplotlib.pyplot as plt
-import pylab as pl
-from decimal import *
 NumberTrials = 1000
 sequenceX = []
 sequenceY = []
