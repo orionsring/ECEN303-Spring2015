@@ -1,5 +1,8 @@
 import random
 import numpy as np
+import matplotlib.pyplot as plt
+import pylab as pl
+from decimal import *
 NumberTrials = 1000
 sequenceX = []
 sequenceY = []
@@ -34,3 +37,4 @@ for value in Mis4:
 			PMFofSgM[i] += 1
 for number in PMFofSgM:
 	print(number/float(len(Mis4)))
+#the distribution looks like a uniform distribution
