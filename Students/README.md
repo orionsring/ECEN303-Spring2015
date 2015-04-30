@@ -13,7 +13,7 @@ Undergraduate Students
 * Cooper Rehn, [Cooper95] (https://github.com/Cooper95)
 * Minda Wei, [minda-wei](https://github.com/minda-wei)
 * Chaance Graves, [ctg123](https://github.com/ctg123)
-
+* Jared Pocock, [pocockjg](https://github.com/pocockjg)
 
 Faculty Members
 ---------------
