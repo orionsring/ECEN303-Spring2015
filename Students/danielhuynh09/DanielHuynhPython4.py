@@ -17,4 +17,5 @@ for TrialIndex in range(0, NumberTrials):
 
 for OutcomeIndex in range(2,12):
     percent.append(SequenceZ.count(OutcomeIndex)/float(NumberTrials))
-print(percent) 
+print(percent)
+# Calculating Pr(4), you get Pr(4) = 2/9 = 0.2222
