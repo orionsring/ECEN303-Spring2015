@@ -14,7 +14,7 @@ Undergraduate Students
 * Minda Wei, [minda-wei](https://github.com/minda-wei)
 * Chaance Graves, [ctg123](https://github.com/ctg123)
 * Jared Pocock, [pocockjg](https://github.com/pocockjg)
-
+* Daniel Huynh, [danielhuynh09](https://github.com/danielhuynh09)
 Faculty Members
 ---------------
 
