@@ -15,6 +15,7 @@ Undergraduate Students
 * Chaance Graves, [ctg123](https://github.com/ctg123)
 * Jared Pocock, [pocockjg](https://github.com/pocockjg)
 * Daniel Huynh, [danielhuynh09](https://github.com/danielhuynh09)
+* Victor Trujillo. [truj2282](https://github.com/truj2282)
 Faculty Members
 ---------------
 
