@@ -1,0 +1,55 @@
+__author__ = 'owner'
+
+import random
+import matplotlib.pyplot as plt
+
+
+def BinaryTrial(p):   #function for binary trial with probability of p
+    a = 1 #arbitrary value meant to realize the the entire sample space relative to p
+    rem = 0.5
+    while float(rem) != int(rem):   #multiplies 1 and p by 10 until there is no decimal value to hanging off of p
+        a = a*10
+        p = p*10
+        rem = a%p
+
+    n = random.randrange(0, a)      #picks random number between 0 and sample space
+    if n > p:                       #if outside p, then 0
+        output = 0
+    else:                           #else 1
+        output = 1
+
+    return output
+
+
+def Rand_Var_X():                   #function for random variable X
+    sequence = []
+    result = 0
+    for i in range(0, 10):
+        sequence.append(BinaryTrial(.75))
+
+    for j in range (10):
+        result = result + sequence[j]
+
+    return result
+
+
+TrialSequence = []    # list for sequence of X
+TrialCount = 100000   #number of trial counts
+
+for i in range(0, TrialCount):     #sequence the trial of X in list
+    a = Rand_Var_X()
+    TrialSequence.append(a)
+
+
+percent = []
+
+for OutcomeIndex in range(0, 10):     #calculate the percentage of values
+    percent.append(TrialSequence.count(OutcomeIndex) / float(TrialCount))
+
+
+print(percent)
+
+plt.plot(percent)
+plt.show()
+
+
