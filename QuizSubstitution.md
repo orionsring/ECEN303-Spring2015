@@ -3,4 +3,4 @@
 Example:
 Name: - Challenge to Grade: 1 - Quiz to Substitute:
 
-Name: Thomas Branyon (tbranyon) - Challenge to Grade: 2 - Quiz to Subsitute: 4
+Name: Thomas Branyon (tbranyon) - Challenge to Grade: 2 - Quiz to Substitute: 4
