@@ -1,5 +1,5 @@
 #Identity
 
-*Name: Andrew Crow
-*GitHubID: acrow1234
-*NetID: ajc3232
+* Name: Andrew Crow
+* GitHubID: acrow1234
+* NetID: ajc3232
