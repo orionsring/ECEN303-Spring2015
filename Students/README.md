@@ -16,6 +16,7 @@ Undergraduate Students
 * Jared Pocock, [pocockjg](https://github.com/pocockjg)
 * Daniel Huynh, [danielhuynh09](https://github.com/danielhuynh09)
 * Victor Trujillo. [truj2282](https://github.com/truj2282)
+* Jeff Bartlett, [jbartlett12026](https://github.com/jbartlett12026)
 Faculty Members
 ---------------
 
