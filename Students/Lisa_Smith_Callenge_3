@@ -1,0 +1,33 @@
+#Python Challenge 3 ECEN 303
+#Lisa Smith
+import random
+import numpy as np
+
+NumberTrials = 10000
+sequenceX = []
+sequenceY = []
+sequenceS = []
+sequenceM = []
+
+for TrialIndex in range(0, NumberTrials):
+	sequenceX.append(random.randint(1, 6))
+	sequenceY.append(random.randint(1, 6))
+	sequenceS.append(sequenceX[TrialIndex] + sequenceY[TrialIndex])
+	sequenceM.append(max(sequenceX[TrialIndex], sequenceY[TrialIndex]))
+
+
+PMFofSM = np.zeros((13, 7))
+for TrialIndex in range(0, NumberTrials):
+	PMFofSM[sequenceS[TrialIndex], sequenceM[TrialIndex]] += 1
+PMFofSM /= float(NumberTrials)
+
+#set up list to store conditional PMF of S
+dataList = [0, 0, 0, 0, 0, 0]
+#loop through every column of PMFofSM list
+for MType in range(1, 7):
+	#loop through every row
+	for SType in range (2, 12):
+		#sum into dataList the PMF for that S, M pair
+		dataList[MType-1] += PMFofSM[SType, MType]
+
+print(dataList)
