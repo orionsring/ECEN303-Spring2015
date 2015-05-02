@@ -11,6 +11,8 @@ Name: Jordan Kilburn (jordankilburn) - Challenge to Grade: 4 - Quiz to Substitut
 
 Name: Daniel Huynh (danielhuynh09) - Challenge to Grade: 4 - Quiz to Substitute: 5
 
-Name: Keaton Brown (keabro) - Challenge to Grade: 3 - Quiz to Substitute: 5
+Name: Keaton Brown (keabro) - Challenge to Grade: 3,4 - Quiz to Substitute: 4,5
 
 Name: Andrew Crow - Challenge to Grade: 2 - Quiz to Substitute: 4
+
+Name: Lisa Smith - Challenge to Grade: 2,3 - Quiz to Substitute: 5,6
