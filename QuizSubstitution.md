@@ -13,4 +13,4 @@ Name: Daniel Huynh (danielhuynh09) - Challenge to Grade: 4 - Quiz to Substitute:
 
 Name: Keaton Brown (keabro) - Challenge to Grade: 3 - Quiz to Substitute: 5
 
-Name: Andrew Crow - Challenge to Grade: Challenge 2 - Quiz to Substitute: 4
+Name: Andrew Crow - Challenge to Grade: 2 - Quiz to Substitute: 4
