@@ -20,3 +20,5 @@ Name: Lisa Smith - Challenge to Grade: 2 - Quiz to Substitute: 5 or 6
 Name: Jeff Bartlett - Challenge to Grade: 3,4 - Quiz to Substitute:6, 2(missed quiz) 
 
 Name: Cooper Rehn - Challende to Grade: 3, 4 - Quiz to Substitute: 6, 5
+
+Name: Minda Wei (minda-wei) - Challenge to Grade: 4 - Quiz to Substitute: 4
