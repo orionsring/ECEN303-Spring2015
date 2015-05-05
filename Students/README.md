@@ -20,6 +20,7 @@ Undergraduate Students
 * Jeff Bartlett, [jbartlett12026](https://github.com/jbartlett12026)
 * Lisa Smith, [lisasmith](https://github.com/lisamsmith)
 * Everett Harrell, [everett-harrell](https://github.com/everett-harrell)
+* Anthony Ramirez, [agramir16](https://github.com/agramir16)
 Faculty Members
 ---------------
 
