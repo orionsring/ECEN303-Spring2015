@@ -18,26 +18,26 @@ sequenceS = []
 sequenceM = []
 
 for TrialIndex in range(0, NumberTrials): 
-	sequneceX.append(random.randint(1,6)) #
-	sequneceX.append(random.randint(1,6))
-	sequneceX.append(sequenceX[TrialIndex] + sequenceY[TrialIndex]) #This is S = X + Y
-	sequneceX.append(max(sequenceX[TrialIndex], sequenceY[TrialIndex])) # M = max(X,Y)
+	sequneceX.append(random.randint(1,6)) # generates the roll of the die
+	sequneceY.append(random.randint(1,6)) # generates the roll of the die
+	sequneceS.append(sequenceX[TrialIndex] + sequenceY[TrialIndex]) #This is S = X + Y
+	sequneceM.append(max(sequenceX[TrialIndex], sequenceY[TrialIndex])) # M = max(X,Y)
 	
-	PMFofSM = np.zeros((13,7))										# produces a matrix for 0
+	PMFofSM = np.zeros((13,7)) # matrix row by column of zeros										# produces a matrix for 0
 	
 	for TrialIndex in range(0,NumberTrials):
 		PMFofSM[sequenceS[TrialIndex], sequenceM[TrialIndex]] += 1
 		
 	PMFofSM /= float(NumberTrials)
 	
-	PMFofM = np.zeros(12)
+	PMFofM = np.zeros(2,12)  # matrix row by column of zeros
 
 	for TrialIndex in range(0,NumberTrials):
 		PMFofM[sequenceM[TrialIndex]] += 1
 		
 	PMFofM /= float(NumberTrials)
 	
-	PMFofM = np.zeros((13,7))
+	PMFofM = np.zeros((13,7)) # matrix row by column of zeros
 
 	for TrialIndex in range(0,NumberTrials): # conditional pmf states the for S given M = pmf of SM/(pmf of m)
 		PMFofSgivenM[sequenceS[TrialIndex], sequenceM[TrialIndex]] = [[PMFofSM[sequenceS[TrialIndex], sequenceM[TrialIndex]]] / PMFofM[sequenceM[TrialIndex]]
