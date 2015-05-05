@@ -23,4 +23,4 @@ Name: Cooper Rehn - Challende to Grade: 3, 4 - Quiz to Substitute: 6, 5
 
 Name: Minda Wei (minda-wei) - Challenge to Grade: 4 - Quiz to Substitute: 4
 
-Name: Chaance Graves (ctg123) - Challenge to Grade: 2,4 - Quiz to Substitute: 4,5
+Name: Chaance Graves (ctg123) - Challenge to Grade: 3,4 - Quiz to Substitute: 4,5
