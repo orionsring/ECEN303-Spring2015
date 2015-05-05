@@ -10,7 +10,8 @@ import numpy as np
 # Sum of S = X + Y
 # M = max(X,Y)
 
-NumberTrials = 100000
+NumberTrials = 100000 # you can choose how many you want to run
+# All arrays are initialized and correspond to it's respective random variable.
 sequenceX = []
 sequenceY = []
 sequenceS = []
