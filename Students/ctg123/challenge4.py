@@ -5,7 +5,8 @@
 
 import random
 
-NumberTrials = 1000 
+NumberTrials = 1000 # variable you can test, explore as N grows to 1000, 10000, 100000, etc ...
+# sequences arrays initialized
 sequenceX = []
 sequenceY = []
 sequenceZ = []
