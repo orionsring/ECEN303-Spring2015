@@ -23,6 +23,6 @@ Name: - Challenge to Grade: 1 - Quiz to Substitute:
 
 ~~Name: Minda Wei (minda-wei) - Challenge to Grade: 4 - Quiz to Substitute: 4~~
 
-Name: Chaance Graves (ctg123) - Challenge to Grade: 3,4 - Quiz to Substitute: 4, 5
+~~Name: Chaance Graves (ctg123) - Challenge to Grade: 3,4 - Quiz to Substitute: 4, 5~~
 
 ~~Name: Everett Harrell (tazh3294) - Challenge to Grade: 3 - Quiz to Substitute: 3~~
